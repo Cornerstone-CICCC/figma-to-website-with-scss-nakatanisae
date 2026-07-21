@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+}
+
+.top-page {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../src/bg-photo.svg");
+    background-size: cover;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+nav {
+    display: flex;
+    align-items: top;
+    justify-content: right;
+    margin-top: 49px;
+    margin-right: 62px;
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: 12%;
+        line-height: 110%;
+        margin-left: 27px;
+    }
+
+    a:nth-child(1){
+        width: 171.8px;
+        height: 26.23px;
+        text-align: center;
+        border: black solid 1px;
+        box-sizing: border-box;
+    }
+
+    a:nth-child(2) {
+        background-color: #FFFFFF;
+        width: 195px;
+        height: 25px;
+        text-align: center;
+    }
+
+    a:nth-child(3) {
+        width: 225px;
+        height: 26px;
+        text-align: center;
+    }
+}
+
+.UXWasHere {
+    width: 186px;
+    height: 139px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top :410px;
+    left: 552px;
+
+    h1 {
+        font-size: 128px;
+        line-height: 126px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        max-width: 816px;
+        text-align: center;
+        white-space: nowrap;
+        margin-bottom: 28px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 64px;
+        letter-spacing: -2px;
+        font-weight: normal;
+        box-sizing: border-box;
+        max-width: 646px;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.SNS-Icons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 51px;
+    bottom: 177px;
+    gap: 38px;
+
+    .icons{
+        width: 42px;
+        height: 42px;
+    }
+}
+
+.scroll-icon{
+    width: 15px;
+    height: 90px;
+    position: absolute;
+    right: 20px;
+    bottom: 91px;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "figma-to-website-with-scss-nakatanisae",
+  "version": "1.0.0",
+  "description": "The goal of this assignment is to mimic the tasks you would do in a real company setting and to get you familiar with Figma. In a company, if you work as a developer, you will be given a detailed mockup design, ideally in Figma, and you have to replicate that design into an actual website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cornerstone-CICCC/figma-to-website-with-scss-nakatanisae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Cornerstone-CICCC/figma-to-website-with-scss-nakatanisae/issues"
+  },
+  "homepage": "https://github.com/Cornerstone-CICCC/figma-to-website-with-scss-nakatanisae#readme",
+  "devDependencies": {
+    "sass": "^1.101.3"
+  }
+}
