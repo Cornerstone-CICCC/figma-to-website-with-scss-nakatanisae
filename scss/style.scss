@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .top-page {
     position: relative;
     width: 100%;
@@ -31,16 +36,14 @@ nav {
     margin-right: 62px;
 
     a {
-        text-decoration: none;
-        color: black;
         font-size: 24px;
         font-weight: normal;
-        letter-spacing: 12%;
+        letter-spacing: 0.12em;
         line-height: 110%;
         margin-left: 27px;
     }
 
-    a:nth-child(1){
+    a:nth-child(1) {
         width: 171.8px;
         height: 26.23px;
         text-align: center;
@@ -73,7 +76,7 @@ nav {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top :410px;
+    top: 410px;
     left: 552px;
 
     h1 {
@@ -100,7 +103,7 @@ nav {
 
 }
 
-.character-logo{
+.character-logo {
     width: 45.31px;
     height: 88px;
     position: absolute;
@@ -108,7 +111,7 @@ nav {
     left: 627px;
 }
 
-.SNS-Icons{
+.SNS-Icons {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -116,16 +119,83 @@ nav {
     bottom: 177px;
     gap: 38px;
 
-    .icons{
+    .icons {
         width: 42px;
         height: 42px;
     }
 }
 
-.scroll-icon{
+.scroll-icon {
     width: 15px;
     height: 90px;
     position: absolute;
     right: 20px;
     bottom: 91px;
 }
+
+.about-us{
+    background-color: #EDF0F9;
+    height: 1090px;
+    position: relative;
+
+    img{
+    width: 895.54px;
+    height: 645px;
+    position: absolute;
+    top: 375px;
+    right: 141.46px;
+    }
+
+    h2{
+        font-size: 64px;
+        font-weight: 700;
+        box-sizing: border-box;
+        width: 368px;
+        height: 80px;
+        position: absolute;
+        top: 262px;
+        left: 64px;
+    }
+
+    p{
+        font-size: 24px;
+        font-style: normal;
+        box-sizing: border-box;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0.03em;
+        width: 782px;
+        height: 240px;
+        position: absolute;
+        top: 377px;
+        left: 67px;
+    }
+
+    .bold{
+        font-weight: 700;
+    }
+
+    .btn{
+        background-color: #3190e8;
+        border: 1px solid black;
+        width: 289px;
+        height: 62px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        
+        position: absolute;
+        top: 740px;
+        left: 64px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        
+    }
+}
+

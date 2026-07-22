@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .top-page {
   position: relative;
   width: 100%;
@@ -26,11 +31,9 @@ nav {
   margin-right: 62px;
 }
 nav a {
-  text-decoration: none;
-  color: black;
   font-size: 24px;
   font-weight: normal;
-  letter-spacing: 12%;
+  letter-spacing: 0.12em;
   line-height: 110%;
   margin-left: 27px;
 }
@@ -115,6 +118,63 @@ nav a:nth-child(3) {
   position: absolute;
   right: 20px;
   bottom: 91px;
+}
+
+.about-us {
+  background-color: #EDF0F9;
+  height: 1090px;
+  position: relative;
+}
+.about-us img {
+  width: 895.54px;
+  height: 645px;
+  position: absolute;
+  top: 375px;
+  right: 141.46px;
+}
+.about-us h2 {
+  font-size: 64px;
+  font-weight: 700;
+  box-sizing: border-box;
+  width: 368px;
+  height: 80px;
+  position: absolute;
+  top: 262px;
+  left: 64px;
+}
+.about-us p {
+  font-size: 24px;
+  font-style: normal;
+  box-sizing: border-box;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+  width: 782px;
+  height: 240px;
+  position: absolute;
+  top: 377px;
+  left: 67px;
+}
+.about-us .bold {
+  font-weight: 700;
+}
+.about-us .btn {
+  background-color: #3190e8;
+  border: 1px solid black;
+  width: 289px;
+  height: 62px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  top: 740px;
+  left: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
