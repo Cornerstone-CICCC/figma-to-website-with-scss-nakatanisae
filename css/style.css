@@ -424,8 +424,22 @@ nav a:nth-child(3) {
   width: 793px;
   height: 1269px;
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 1085px;
+}
+
+.footer {
+  height: 613.27px;
+  width: 1920px;
+}
+.footer .contactUs {
+  height: 190px;
+  background-color: #F9F9FB;
+}
+.footer .info {
+  background-color: #3D3D3D;
+  height: 501px;
+  color: #F5F5F5;
 }
 
 /*# sourceMappingURL=style.css.map */
