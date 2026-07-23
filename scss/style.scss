@@ -196,6 +196,8 @@ nav {
         letter-spacing: 0.04em;
         color: #FFFFFF;
 
+        box-shadow: 0 4px 4px 0 #0B1C3F;
+
     }
 }
 
@@ -225,11 +227,11 @@ nav {
 
     }
 
-    .line{
+    .line {
         width: 0;
         height: 139.01px;
         border: 3px solid #000000;
-        
+
         position: absolute;
         top: 361.99px;
         left: 143px;
@@ -242,14 +244,14 @@ nav {
         position: absolute;
         top: 372px;
         left: 169px;
-        
+
         font-weight: 400;
         font-size: 24px;
         letter-spacing: 0.03em;
 
     }
 
-    .text-container{
+    .text-container {
         width: 1793px;
         display: flex;
         justify-content: space-between;
@@ -259,27 +261,105 @@ nav {
         left: 60px;
     }
 
-    h3{
+    h3 {
         font-weight: 400;
         font-size: 40px;
     }
 
-    a{
+    a {
         font-weight: 400;
         font-size: 24px;
     }
 
-    .picture{
+    .picture {
         width: 281.85px;
         height: 272.03px;
     }
 
-    .pictures-container{
+    .pictures-container {
         display: flex;
         column-gap: 22.99px;
 
         position: absolute;
         top: 635px;
         left: 60px;
+    }
+}
+
+.MyUXSpace {
+    height: 1170px;
+    background-color: #F9F9FB;
+    position: relative;
+
+    .character {
+        width: 47.9px;
+        height: 66.3px;
+
+        position: absolute;
+        top: 288px;
+        left: 116px;
+    }
+
+    h2 {
+        width: 306px;
+        height: 65px;
+
+        font-weight: 700;
+        font-size: 52px;
+
+        position: absolute;
+        top: 302px;
+        left: 163px;
+    }
+
+    .mockup {
+        width: 760px;
+        height: 463px;
+
+        position: absolute;
+        top: 272px;
+        left: 1092px;
+    }
+
+    p{
+        width: 854px;
+        height: 322px;
+
+        position: absolute;
+        top: 396px;
+        left: 169.12px;
+
+        font-weight: 400;
+        font-size: 24px;
+        letter-spacing: 0.03em;
+    }
+  
+
+    .bold-24px{
+        font-weight: 700;
+    }
+
+    .btn {
+        background-color: #3190e8;
+        border: 1px solid black;
+        width: 324px;
+        height: 62px;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        position: absolute;
+        top: 836px;
+        left: 163.12px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 700;
+        font-size: 26px;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+
+        box-shadow: 0 4px 4px 0 #0B1C3F;
     }
 }

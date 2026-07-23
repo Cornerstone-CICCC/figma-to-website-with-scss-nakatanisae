@@ -175,6 +175,7 @@ nav a:nth-child(3) {
   font-size: 26px;
   letter-spacing: 0.04em;
   color: #FFFFFF;
+  box-shadow: 0 4px 4px 0 #0B1C3F;
 }
 
 .feature {
@@ -241,6 +242,67 @@ nav a:nth-child(3) {
   position: absolute;
   top: 635px;
   left: 60px;
+}
+
+.MyUXSpace {
+  height: 1170px;
+  background-color: #F9F9FB;
+  position: relative;
+}
+.MyUXSpace .character {
+  width: 47.9px;
+  height: 66.3px;
+  position: absolute;
+  top: 288px;
+  left: 116px;
+}
+.MyUXSpace h2 {
+  width: 306px;
+  height: 65px;
+  font-weight: 700;
+  font-size: 52px;
+  position: absolute;
+  top: 302px;
+  left: 163px;
+}
+.MyUXSpace .mockup {
+  width: 760px;
+  height: 463px;
+  position: absolute;
+  top: 272px;
+  left: 1092px;
+}
+.MyUXSpace p {
+  width: 854px;
+  height: 322px;
+  position: absolute;
+  top: 396px;
+  left: 169.12px;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+}
+.MyUXSpace .bold-24px {
+  font-weight: 700;
+}
+.MyUXSpace .btn {
+  background-color: #3190e8;
+  border: 1px solid black;
+  width: 324px;
+  height: 62px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: absolute;
+  top: 836px;
+  left: 163.12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  box-shadow: 0 4px 4px 0 #0B1C3F;
 }
 
 /*# sourceMappingURL=style.css.map */
