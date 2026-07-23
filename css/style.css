@@ -10,59 +10,53 @@ a {
   color: black;
 }
 
-.top-page {
-  position: relative;
+header {
   width: 100%;
   height: 100vh;
   background-image: url("../src/bg-photo.svg");
   background-size: cover;
 }
-
-.header {
+header .header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  position: relative;
 }
-
-nav {
+header .header nav {
   display: flex;
-  align-items: top;
-  justify-content: right;
   margin-top: 49px;
   margin-right: 62px;
 }
-nav a {
+header .header nav a {
   font-size: 24px;
   font-weight: normal;
   letter-spacing: 0.12em;
   line-height: 110%;
   margin-left: 27px;
 }
-nav a:nth-child(1) {
+header .header nav a:nth-child(1) {
   width: 171.8px;
   height: 26.23px;
   text-align: center;
   border: black solid 1px;
   box-sizing: border-box;
 }
-nav a:nth-child(2) {
+header .header nav a:nth-child(2) {
   background-color: #FFFFFF;
   width: 195px;
   height: 25px;
   text-align: center;
 }
-nav a:nth-child(3) {
+header .header nav a:nth-child(3) {
   width: 225px;
   height: 26px;
   text-align: center;
 }
-
-.UXWasHere {
+header .header .UXWasHere {
   width: 186px;
   height: 139px;
 }
-
-.text {
+header .top-page .text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,7 +65,7 @@ nav a:nth-child(3) {
   top: 410px;
   left: 552px;
 }
-.text h1 {
+header .top-page .text h1 {
   font-size: 128px;
   line-height: 126px;
   font-weight: bold;
@@ -81,7 +75,7 @@ nav a:nth-child(3) {
   white-space: nowrap;
   margin-bottom: 28px;
 }
-.text h2 {
+header .top-page .text h2 {
   font-size: 48px;
   line-height: 64px;
   letter-spacing: -2px;
@@ -91,16 +85,14 @@ nav a:nth-child(3) {
   text-align: center;
   margin: 0;
 }
-
-.character-logo {
+header .top-page .character-logo {
   width: 45.31px;
   height: 88px;
   position: absolute;
   top: 429px;
   left: 627px;
 }
-
-.SNS-Icons {
+header .top-page .SNS-Icons {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -108,12 +100,11 @@ nav a:nth-child(3) {
   bottom: 177px;
   gap: 38px;
 }
-.SNS-Icons .icons {
+header .top-page .SNS-Icons .icons {
   width: 42px;
   height: 42px;
 }
-
-.scroll-icon {
+header .top-page .scroll-icon {
   width: 15px;
   height: 90px;
   position: absolute;
