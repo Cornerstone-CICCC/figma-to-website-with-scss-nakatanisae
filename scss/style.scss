@@ -322,7 +322,7 @@ nav {
         left: 1092px;
     }
 
-    .paragraph-container{
+    .paragraph-container {
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -332,18 +332,18 @@ nav {
         left: 169.12px;
 
         width: 854px;
-    
+
     }
 
-    p{
+    p {
         line-height: 40px;
         font-weight: 400;
         font-size: 24px;
         letter-spacing: 0.03em;
     }
-  
 
-    .bold-24px{
+
+    .bold-24px {
         font-weight: 700;
     }
 
@@ -372,12 +372,12 @@ nav {
     }
 }
 
-.event-page{
+.event-page {
     height: 1090px;
     background-color: #CECECE;
     position: relative;
 
-    h2{
+    h2 {
         width: 521px;
         height: 281px;
 
@@ -394,16 +394,16 @@ nav {
         align-items: center;
     }
 
-    .event{
+    .event {
         width: 596px;
         height: 612px;
-        
+
         position: absolute;
         top: 256px;
         left: 174px;
     }
 
-    .paragraph-container{
+    .paragraph-container {
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -413,17 +413,17 @@ nav {
         left: 927px;
 
         width: 819px;
-    
+
     }
 
-    p{
+    p {
         line-height: 40px;
         font-size: 24px;
         letter-spacing: 0.03em;
-        
+
     }
 
-    .bold-24px{
+    .bold-24px {
         font-weight: 700;
     }
 
@@ -453,19 +453,19 @@ nav {
 
 }
 
-.career{
+.career {
     height: 1222px;
     background-color: #F9F9FB;
     position: relative;
 
-    h2{
+    h2 {
         position: absolute;
         top: 400px;
         left: 152px;
         width: 521px;
     }
 
-    .paragraph-container{
+    .paragraph-container {
         display: flex;
         flex-direction: column;
         gap: 50px;
@@ -476,13 +476,13 @@ nav {
         width: 751px;
     }
 
-    p{
+    p {
         line-height: 40px;
         font-size: 24px;
         letter-spacing: 0.03em;
     }
 
-    .bold-24px{
+    .bold-24px {
         font-weight: 700;
     }
 
@@ -495,7 +495,7 @@ nav {
         border-radius: 5px;
 
         position: absolute;
-        top: 600px;
+        top: 1000px;
         left: 157px;
 
         display: flex;
@@ -510,7 +510,7 @@ nav {
         box-shadow: 0 4px 4px 0 #0B1C3F;
     }
 
-    img{
+    img {
         width: 793px;
         height: 1269px;
 
@@ -521,20 +521,121 @@ nav {
 
 }
 
-.footer{
-    height: 613.27px;
+.footer {
+    height: 501px;
     width: 1920px;
+    position: relative;
 
-    .contactUs{
+
+    .contactUs {
         height: 190px;
         background-color: #F9F9FB;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
         
+        .arrow-black{
+            position: absolute;
+            left: 234px;
+            top: 33px;
+        }
+
+        p {
+            width: 162.33px;
+            height: 84.25px;
+            font-size: 32px;
+            margin-left: 60px;
+
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 64px;
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 8.92px;
+            margin-left: 60px;
+        }
+
+        .circleWithArrow{
+            grid-column: 4/-1;
+            justify-self: right;
+            margin-right: 60px;
+            z-index: 10;
+        }
     }
 
-    .info{
+    .info {
         background-color: #3D3D3D;
-        height: 501px;
+        height: 400px;
         color: #F5F5F5;
-;
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        h2,
+        p {
+            margin-left: 67px;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 64px;
+            align-self: center;
+        }
+
+        p {
+            font-size: 24px;
+        }
+
+        h3 {
+            font-weight: 700;
+            font-size: 32px;
+            align-self: center;
+            margin-left: 60px;
+        }
+
+        
+
+        .signUp {
+            width: 377px;
+            font-weight: 500;
+            font-size: 24px;
+            margin-left: 0;
+
+             grid-column: 4/-1;
+            align-self: center;
+            
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 8.92px;
+        }
+
+        .arrow-white{
+            position: absolute;
+            top: 283px;
+            right: 95px;
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            gap: 22px;
+
+            grid-row: 2/-1;
+
+            .follow {
+                margin-left: 0;
+            }
+
+            .footer-icons {
+                display: flex;
+                gap: 126px;
+                justify-self: flex-end;
+            }
+        }
     }
+
 }
