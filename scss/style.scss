@@ -3,6 +3,7 @@
 * {
     font-family: 'DM Sans', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -507,6 +508,15 @@ nav {
         color: #FFFFFF;
 
         box-shadow: 0 4px 4px 0 #0B1C3F;
+    }
+
+    img{
+        width: 793px;
+        height: 1269px;
+
+        position: absolute;
+        top: 0px;
+        left: 1085px;
     }
 
 }
