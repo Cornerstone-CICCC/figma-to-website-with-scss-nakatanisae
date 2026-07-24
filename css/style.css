@@ -40,6 +40,7 @@ header .header nav a:nth-child(1) {
   text-align: center;
   border: black solid 1px;
   box-sizing: border-box;
+  background-color: #FFFFFF;
 }
 header .header nav a:nth-child(2) {
   background-color: #FFFFFF;
